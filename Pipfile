@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pre-commit = "4.2.0"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+scikit-learn = "*"
+tensorflow = "*"
+statsmodels = "*"
+yfinance = "*"
+xgboost = "*"
+lightgbm = "*"
+mplfinance = "*"
+ta = "*"
+prophet = "*"
+catboost = "*"
+
+[dev-packages]
+pre-commit = "*"
+ipykernel = "*"
+
+[scripts]
+format = "pre-commit run --all-files"
+
+[requires]
+python_version = "3.12"
