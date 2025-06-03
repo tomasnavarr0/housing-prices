@@ -4,20 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pre-commit = "4.2.0"
 pandas = "*"
-matplotlib = "*"
-seaborn = "*"
-scikit-learn = "*"
-tensorflow = "*"
-statsmodels = "*"
-yfinance = "*"
-xgboost = "*"
-lightgbm = "*"
-mplfinance = "*"
-ta = "*"
-prophet = "*"
-catboost = "*"
 
 [dev-packages]
 pre-commit = "*"

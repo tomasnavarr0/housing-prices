@@ -1,5 +1,5 @@
 {
-  "name": "Get Inflation Dev Container",
+  "name": "Housing prices Dev Container",
   "build": {
     "dockerfile": "Dockerfile",
     "context": ".."
